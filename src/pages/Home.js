@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import newsImg from "../assets/images/blog-img-1.png";
 import { Carousel, Image, Spin, Tabs } from "antd";
 import { useNavigate } from "react-router-dom";
 import singaporeAds from "../assets/images/sing-ads.jpg";
