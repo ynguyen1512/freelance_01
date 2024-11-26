@@ -115,15 +115,18 @@ const BlogDetailSection3 = () => {
               <div className="grid grid-cols-1 gap-24">
                 {/* First Block */}
                 <div className="col-span-2">
-                  <div className="mt-10 relative mb-16">
-                    <img
-                      src={infocom}
-                      alt="Fashion"
-                      className="rounded-md object-cover h-[200px] w-full"
-                    />
-                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                  {/* <div className="mt-10 relative mb-16"> */}
+                   
+                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] -bottom-10 text-white">
                       Cách đưa tin của các hãng truyền thông quốc gia
                     </p>
+                  {/* </div> */}
+                  <div>
+                  <img
+                      src={infocom}
+                      alt="Fashion"
+                      className="rounded-md object-cover h-[200px] w-[800px] my-5 mx-auto"
+                    />
                   </div>
                   <div className="grid grid-cols-1 gap-5">
                     <div>
@@ -206,16 +209,16 @@ const BlogDetailSection3 = () => {
               </div>
               {/* 2 */}
               {/* title 2 */}
-              <div className="mt-10 relative mb-16">
-                <img
+              {/* <div className="mt-10 relative mb-16"> */}
+                {/* <img
                   src={policy}
                   alt="Fashion"
                   className="rounded-md object-cover h-[400px] w-full"
-                />
-                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                /> */}
+                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] -bottom-10 text-white">
                   Vai trò của truyền thông trong định hình chính sách đối ngoại
                 </p>
-              </div>
+              {/* </div> */}
               <div>
                 <p className="leading-8 mb-5 text-sm text-gray-700 w-full mt-5 text-justify">
                   Truyền thông không chỉ là một công cụ thông tin mà còn là yếu
@@ -225,19 +228,20 @@ const BlogDetailSection3 = () => {
                 </p>
               </div>
               {/* 3 */}
-              <div className="mt-10 relative mb-16">
+              <div className="mt-10 mb-16">
                 <img
                   src={boVanHoa}
                   alt="Fashion"
-                  className="rounded-md object-cover h-[500px] w-full"
+                  className="rounded-md object-cover h-[500px] w-2/3 mx-auto"
                 />
-                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
-                  Vai Trò của Truyền Thông trong Việc Xây Dựng Vị Thế Quốc Gia
-                  tại Singapore
-                </p>
+               
               </div>
               <div className="grid grid-cols-1 mb-10">
                 <div>
+                <p className="leading-18 text-primary-700 font-serif font-bold text-[15px] w-full -mt-10 mb-4">
+                  Vai Trò của Truyền Thông trong Việc Xây Dựng Vị Thế Quốc Gia
+                  tại Singapore
+                </p>
                   <p className="leading-8 mb-2 text-sm text-gray-700 w-full text-justify">
                     Tại Singapore, truyền thông không chỉ là cầu nối thông tin
                     mà còn là công cụ chiến lược giúp xây dựng đồng thuận xã hội
@@ -444,7 +448,7 @@ const BlogDetailSection3 = () => {
                         className="rounded-md object-cover h-[320px] w-1/2 mx-auto"
                       />
                       <p className="text-sm">
-                        Hình 3.3: Niềm tin vào tin tức ở Singapore (Đơn vị: %)
+                        Niềm tin vào tin tức ở Singapore (Đơn vị: %)
                       </p>
                     </div>
                   </div>
@@ -477,13 +481,13 @@ const BlogDetailSection3 = () => {
                   </p>
                 </div>
                 <div>
-                  <div className="mt-10 relative mb-16">
+                  <div className="mt-10 relative mb-4">
                     <img
                       src={iOneTech}
                       alt="Fashion"
                       className="rounded-md object-cover h-[400px] w-full"
                     />
-                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                    <p className="leading-18 mt-5 bg-primary-700 p-6 w-full font-serif font-normal text-[25px] absolute -top-12 text-white text-center">
                     Cơ hội trong truyền thông quốc tế
                     </p>
                   </div>

@@ -90,7 +90,7 @@ const BlogDetailSection2 = () => {
     <>
       {blog && (
         <div className="my-28">
-          <h2 className="text-center text-[40px] text-primary-700 font-normal">
+          <h2 className="text-center text-[35px] text-primary-700 font-normal uppercase">
             Lịch sử hình thành và phát triển của truyền thông
           </h2>
           <img src={divider} className="px-20 py-5" />
@@ -148,7 +148,7 @@ const BlogDetailSection2 = () => {
       )}
       {blog2Content && !blog && (
         <div className="p-24">
-          <h2 className="text-center text-[40px] text-primary-700 font-normal">
+          <h2 className="text-center text-[35px] text-primary-700 font-normal uppercase">
             Quản Lý Truyền Thông Singapore: Pháp Luật và Đạo Đức Cần Biết
           </h2>
           <img src={divider} className="px-20 py-5" />
@@ -263,7 +263,7 @@ const BlogDetailSection2 = () => {
 
       {blog3Content && !blog && !blog2Content && (
         <div className="p-24">
-          <h2 className="text-center text-[40px] text-primary-700 font-normal">
+          <h2 className="text-center text-[35px] text-primary-700 font-normal uppercase">
             Mô hình truyền thông
           </h2>
           <img src={divider} className="px-20 py-5" />
@@ -288,7 +288,7 @@ const BlogDetailSection2 = () => {
               <img src={theory2} className="w-[400px] h-[500px] object-cover" />
             </div>
           </div>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-4">
+          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-20">
             Những học thuyết truyền thông và sự tương đồng trong mô hình của
             Singapore
           </p>
@@ -451,7 +451,7 @@ const BlogDetailSection2 = () => {
       )}
       {blog4Content && !blog && !blog2Content && !blog3Content && (
         <div className="p-24">
-          <h2 className="text-center text-[40px] text-primary-700 font-normal">
+          <h2 className="text-center text-[35px] text-primary-700 font-normal uppercase">
             Ảnh hưởng của truyền thông quốc tế đến chính trị và xã hội
           </h2>
           <img src={divider} className="px-20 py-5" />

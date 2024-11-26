@@ -21,10 +21,10 @@ const BLogDetailSection4 = () => {
             <div className="flex-grow mx-4 border-t-4 border-gray-400"></div>
             <div className="flex justify-between items-center  mx-auto py-4">
               <span className="text-gray-700 font-semibold text-sm px-4">
-                FASHION NEWS
+                GROUP 3
               </span>
               <span className="text-gray-700 font-semibold text-sm">
-                LICERIA & CO.
+                SINGAPORE
               </span>
               <span className="text-gray-700 font-semibold text-sm px-4">
                 2024
@@ -48,11 +48,11 @@ const BLogDetailSection4 = () => {
           <img
             src={blog1Chuong4}
             alt="Fashion"
-            className="w-full rounded-md object-cover h-[400px] mb-5"
+            className="w-full rounded-md object-cover h-[500px] mb-5"
           />
-          <div className="grid grid-cols-3 gap-44">
+          <div className="grid grid-cols-3 gap-14">
             <div>
-              <p className="leading-8 mb-5 text-sm text-gray-700 w-[450px] text-justify">
+              <p className="leading-8 mb-5 text-sm text-gray-700 w-full text-justify">
                 Qua từng chương trước của bài viết, chúng ta đã khám phá nhiều
                 khía cạnh về hệ thống truyền thông quốc tế của Singapore. Quốc
                 đảo này không chỉ nổi bật với nền kinh tế phát triển vượt bậc,
@@ -64,13 +64,13 @@ const BLogDetailSection4 = () => {
                 công cụ xây dựng hình ảnh quốc gia mà còn là phương tiện định
                 hình chính sách đối ngoại và khơi nguồn dư luận xã hội.
               </p>
-              <p className="leading-18 mb-2 text-primary-700 font-serif font-bold text-[18px] w-[450px]">
+              <p className="leading-18 mb-2 text-primary-700 font-serif font-bold text-[18px] w-full">
                 Mặt Tốt và Chưa Tốt Trong Mô Hình Truyền Thông Singapore
               </p>
-              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-[450px]">
+              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-full">
                 Những Điểm Sáng:
               </p>
-              <p className="leading-8 mb-4 text-sm text-gray-700 w-[450px] text-justify">
+              <p className="leading-8 mb-4 text-sm text-gray-700 w-full text-justify">
                 Tính ổn định và hiệu quả: Hệ thống truyền thông được kiểm soát
                 chặt chẽ, đảm bảo thông tin chính xác, hạn chế tối đa tin giả và
                 góp phần duy trì sự hòa hợp xã hội.
@@ -80,17 +80,17 @@ const BLogDetailSection4 = () => {
                 alt="Fashion"
                 className="rounded-md object-cover h-[300px] w-full mb-4"
               />
-              <p className="leading-8 text-sm text-gray-700 w-[450px] text-justify">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify">
                 Tính hệ thống và toàn diện: Mô hình này kết hợp giữa sự tự điều
                 chỉnh của nhà báo và các giá trị đạo đức, giảm bớt sự can thiệp
                 của nhà nước nhưng vẫn giữ được tính ổn định cần thiết.
               </p>
             </div>
             <div>
-              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-[450px]">
+              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-full">
                 Những Mặt Cần Cải Thiện:
               </p>
-              <p className="leading-8 text-sm text-gray-700 w-[450px] text-justify">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify">
                 Hạn chế tiếng nói đa chiều: Mô hình truyền thông Singapore, với
                 sự kiểm soát chặt chẽ của nhà nước, đã mang lại sự ổn định cho
                 xã hội. Tuy nhiên, mô hình này cũng đặt ra những hạn chế đáng
@@ -106,7 +106,7 @@ const BLogDetailSection4 = () => {
                 alt="Fashion"
                 className="rounded-md object-cover h-[200px] w-full my-4"
               />
-              <p className="leading-8 text-sm text-gray-700 w-[450px] text-justify">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify">
                 Rủi ro thao túng dư luận: Các chiến lược truyền thông hiện đại
                 có thể ảnh hưởng gián tiếp đến nhận thức. Việc kiểm soát chặt
                 chẽ của nhà nước đối với truyền thông đã tạo điều kiện thuận lợi
@@ -124,7 +124,7 @@ const BLogDetailSection4 = () => {
               <p className="leading-18 text-primary-700 font-serif font-bold text-[15px] w-[350px]">
                 Singapore có thể làm gì để trở thành một phiên bản tốt hơn?
               </p>
-              <p className="leading-8 text-sm text-gray-700 w-[350px] text-justify my-2">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify my-2">
                 Singapore có nhiều bước tiến lớn trong quản lý truyền thông,
                 nhưng vẫn còn những điều cần cải thiện để đáp ứng kỳ vọng của
                 công chúng, đặc biệt là giới trẻ. Một trong những vấn đề nổi bật
@@ -134,14 +134,14 @@ const BLogDetailSection4 = () => {
                 luật này vẫn khiến nhiều người cảm thấy mơ hồ, dẫn đến thiếu
                 niềm tin.
               </p>
-              <p className="leading-8 text-sm text-gray-700 w-[350px] text-justify my-2">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify my-2">
                 Vậy Singapore nên làm gì? Chính phủ có thể minh bạch hơn bằng
                 cách công khai tiêu chí đánh giá, báo cáo tác động và những vụ
                 việc đã xử lý. Điều này không chỉ giúp người dân hiểu rõ hơn về
                 vai trò của POFMA mà còn tăng cường sự tin tưởng thông qua những
                 con số cụ thể.
               </p>
-              <p className="leading-8 text-sm text-gray-700 w-[350px] text-justify my-2">
+              <p className="leading-8 text-sm text-gray-700 w-full text-justify my-2">
                 Bên cạnh đó, lắng nghe ý kiến công dân là yếu tố không thể
                 thiếu. Một cách thú vị để thực hiện điều này là tạo ra một ứng
                 dụng chuyên dụng, nơi mọi người có thể phản hồi về chính sách
@@ -166,7 +166,7 @@ const BLogDetailSection4 = () => {
         <div className="flex-grow mx-4 border-t-4 border-white-400 my-3"></div>
         <div className="grid grid-cols-3 px-4 gap-6">
           <div>
-            <p className="leading-8 mb-5 text-sm w-[450px] text-justify">
+            <p className="leading-8 mb-5 text-sm w-full text-justify">
               Mô hình truyền thông quốc tế của Singapore mang lại nhiều bài học
               quý giá cho Việt Nam trong việc xây dựng và phát triển hình ảnh
               quốc gia. Một trong những yếu tố quan trọng trong chiến lược
@@ -175,12 +175,12 @@ const BLogDetailSection4 = () => {
               và thân thiện với môi trường kinh doanh, từ đó xây dựng hình ảnh
               quốc gia hấp dẫn và đáng tin cậy.
             </p>
-            <p className="leading-8 mb-5 text-sm w-[450px] text-justify">
+            <p className="leading-8 mb-5 text-sm w-full text-justify">
               Việt Nam có thể học hỏi bằng cách làm nổi bật bản sắc văn hóa đặc
               trưng, vẻ đẹp thiên nhiên và tiềm năng phát triển của mình để thu
               hút đầu tư và du lịch.
             </p>
-            <p className="leading-8 mb-5 text-sm w-[450px] text-justify">
+            <p className="leading-8 mb-5 text-sm w-full text-justify">
               Thứ hai, Singapore cũng rất chú trọng việc sử dụng công nghệ số và
               các nền tảng mạng xã hội để lan tỏa thông điệp quốc gia. Các chiến
               dịch truyền thông của Singapore rất mạnh mẽ trên các nền tảng như
@@ -189,11 +189,11 @@ const BLogDetailSection4 = () => {
               truyền tải thông điệp về đất nước một cách hấp dẫn và dễ tiếp cận,
               nhằm nâng cao sự hiện diện trên các nền tảng toàn cầu.
             </p>
-          </div>
-          <div className="flex flex-col gap-4">
-          <img src={vietSing} className="rounded-md" />
-            <img src={suTuBien} className="rounded-md" />
             <img src={digitalHeadline} className="rounded-md" />
+          </div>
+          <div className="flex flex-col gap-4 items-center justify-center">
+            <img src={vietSing} className="rounded-md h-full object-fill" />
+            <img src={suTuBien} className="rounded-md h-full object-fill" />
           </div>
           <div>
             <img src={ministry} className="rounded-md" />

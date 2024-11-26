@@ -151,14 +151,14 @@ const BlogDetail = () => {
               className="w-full h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96">
+              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96 uppercase">
                 {blog.title}
               </h1>
             </div>
           </div>
 
           {/* Main Content Section */}
-          <div className="container mx-auto px-10 md:px-32 mt-20 grid grid-cols-1 w-2/3">
+          <div className="container mx-auto px-10 md:px-32 mt-20 grid grid-cols-1 w-full">
             <div className="flex justify-center">
               <img
                 src={blog.image}
@@ -169,7 +169,7 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mb-6">{blog.content}</p>
+                <p className="leading-8 mb-6 text-justify">{blog.content}</p>
                 {/* Content Image with Caption */}
                 <div className="flex flex-col gap-5 items-center">
                   <img
@@ -192,19 +192,19 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2"
                   />
                 </div>
-                <p className="leading-8 my-6">{blog.content2}</p>
+                <p className="leading-8 my-6 text-justify">{blog.content2}</p>
               </div>
             </div>
             <div className="grid grid-cols-1 gap-10 -mt-5">
               {/* Content */}
               <div>
-                <p className="leading-8 my-6 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 my-6 text-primary-700 font-serif font-bold text-[18px] uppercase">
                   {blog.title2}
                 </p>
                 <p className="leading-8 -mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
                   Logistics: Mạch máu của nền kinh tế Singapore
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Với vị trí chiến lược trên tuyến giao thương quốc tế kết nối
                   châu Á, châu Âu và Bắc Mỹ, Singapore đã xây dựng ngành
                   logistics như một xương sống cho nền kinh tế. Theo Cơ quan
@@ -220,7 +220,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2"
                   />
                 </div>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Cảng Singapore, một trong những cảng bận rộn nhất thế giới, xử
                   lý hàng triệu TEUs container mỗi năm, đảm bảo sự liền mạch của
                   chuỗi cung ứng toàn cầu. Không chỉ vậy, sân bay Changi – biểu
@@ -234,7 +234,7 @@ const BlogDetail = () => {
                 <p className="leading-8 mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
                   Tài chính: Trụ cột của thịnh vượng
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Nếu logistics là mạch máu thì ngành tài chính chính là trái
                   tim của nền kinh tế Singapore. Quốc gia này từ lâu đã nổi danh
                   là trung tâm tài chính hàng đầu thế giới, thu hút hàng trăm
@@ -250,7 +250,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2"
                   />
                 </div>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Không dừng lại ở đó, Singapore còn tập trung vào đổi mới trong
                   lĩnh vực tài chính, đặc biệt là công nghệ tài chính (FinTech).
                   Những startup sáng tạo được chính phủ hỗ trợ mạnh mẽ, tạo nên
@@ -270,7 +270,7 @@ const BlogDetail = () => {
                   />
                 </div>
 
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Trong kỷ nguyên số hóa, Singapore tiếp tục dẫn đầu với chiến
                   lược phát triển kinh tế số. Từ năm 2018 đến 2022, quy mô kinh
                   tế số của Singapore đã tăng gần gấp đôi, đạt 77,7 tỷ USD,
@@ -278,7 +278,7 @@ const BlogDetail = () => {
                   nghiên cứu và phát triển (R&D) đã giúp quốc gia này nhanh
                   chóng trở thành trung tâm công nghệ cao.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Các lĩnh vực như trí tuệ nhân tạo (AI), blockchain, dữ liệu
                   lớn (Big Data) và công nghệ tài chính (FinTech) đều nhận được
                   sự quan tâm đặc biệt. Chính phủ Singapore không chỉ định hướng
@@ -290,7 +290,7 @@ const BlogDetail = () => {
                   Du lịch: Giao thoa giữa văn hóa và hiện đại
                 </p>
 
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Bên cạnh những ngành kinh tế mũi nhọn, du lịch cũng đóng vai
                   trò quan trọng, góp phần đưa Singapore trở thành một điểm đến
                   hấp dẫn hàng đầu thế giới. Với những biểu tượng như Marina Bay
@@ -312,7 +312,7 @@ const BlogDetail = () => {
                   />
                 </div>
 
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Không chỉ vậy, Singapore còn là trung tâm tổ chức sự kiện quốc
                   tế và du lịch MICE, với những chương trình đình đám như
                   Singapore Grand Prix (F1) hay tour diễn "The Eras Tour" của
@@ -328,7 +328,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2"
                   />
                 </div>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Từ một quốc gia nhỏ bé không có nhiều lợi thế tự nhiên,
                   Singapore đã chứng minh rằng: nguồn lực quan trọng nhất chính
                   là con người và sự nhạy bén trong chiến lược phát triển. Với
@@ -352,18 +352,18 @@ const BlogDetail = () => {
               className="w-full h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96">
+              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96 uppercase">
                 {blog2Content.title}
               </h1>
             </div>
           </div>
 
           {/* Main Content Section */}
-          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-2/3">
+          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-full">
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mb-6">{blog2Content.content}</p>
+                <p className="leading-8 mb-6 text-justify">{blog2Content.content}</p>
                 {/* Content Image with Caption */}
                 <div className="flex gap-5 items-center">
                   <img
@@ -386,7 +386,7 @@ const BlogDetail = () => {
                   Hệ Thống Chính Trị Singapore: Kết Hợp Dân Chủ và Kiểm Soát
                   Chặt Chẽ
                 </p>
-                <p className="-mt-4 leading-8 text-sm text-gray-700">
+                <p className="-mt-4 leading-8 text-sm text-gray-700 text-justify">
                   Singapore theo chế độ cộng hòa nghị viện, với các cuộc bầu cử
                   được tổ chức thường xuyên và quốc hội do người dân bầu chọn.
                   Tuy nhiên, hệ thống chính trị của quốc gia này cũng mang nhiều
@@ -398,7 +398,7 @@ const BlogDetail = () => {
                   nền kinh tế non trẻ thành một trong những trung tâm kinh tế
                   hàng đầu thế giới.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Chính quyền PAP tập trung vào việc duy trì môi trường chính
                   trị ổn định, quản lý xã hội chặt chẽ và triển khai những chính
                   sách kinh tế mang tính chiến lược. Điều này không chỉ giúp
@@ -406,7 +406,7 @@ const BlogDetail = () => {
                   xã hội – yếu tố then chốt trong thành công của một quốc gia
                   nhỏ bé nhưng đầy tham vọng.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Dù PAP chiếm ưu thế áp đảo trong chính trường, Singapore vẫn
                   duy trì các cuộc bầu cử thường xuyên, với quốc hội được bầu
                   chọn bởi người dân. Điều này đảm bảo tính dân chủ trong hệ
@@ -415,26 +415,26 @@ const BlogDetail = () => {
                   duy trì sự ổn định và tránh những xáo trộn có thể cản trở sự
                   phát triển.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Mặc dù PAP là đảng cầm quyền, các đảng đối lập vẫn đóng vai
                   trò quan trọng trong việc thúc đẩy sự minh bạch và cân bằng
                   trong hệ thống chính trị Singapore.
                 </p>
                 <ul className="list-disc ml-8">
-                  <li className="my-2 leading-8 text-sm text-gray-700">
+                  <li className="my-2 leading-8 text-sm text-gray-700 text-justify">
                     Đảng Công Nhân (Workers' Party - WP): Đây là đảng đối lập
                     lớn nhất tại Singapore, tập trung vào các vấn đề như phúc
                     lợi xã hội và cải cách dân chủ. WP không ngừng nỗ lực để
                     mang lại tiếng nói cho người dân, đồng thời giám sát hoạt
                     động của chính phủ.
                   </li>
-                  <li className="my-2 leading-8 text-sm text-gray-700">
+                  <li className="my-2 leading-8 text-sm text-gray-700 text-justify">
                     Đảng Tiến Bộ Singapore (Progress Singapore Party - PSP):
                     Được thành lập sau này, PSP là đảng đối lập lớn thứ hai với
                     tư tưởng trung tả. Đảng này nhấn mạnh tầm quan trọng của quyền lực Quốc hội và trách nhiệm giải trình của chính phủ.
                   </li>
                 </ul>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Ngoài hai đảng lớn trên, Singapore còn có sự hiện diện của
                   nhiều đảng đối lập khác như Đảng Cải Cách (Reform Party), Đảng
                   Nhân Dân Singapore (Singapore People’s Party - SPP), Đảng Dân
@@ -447,7 +447,7 @@ const BlogDetail = () => {
                   Truyền Thông Ở Singapore: Công Cụ Định Hình Chính Sách Và Tư
                   Tưởng Công Chúng
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Tại Singapore, truyền thông không chỉ đơn thuần là kênh cung
                   cấp thông tin mà còn đóng vai trò quan trọng trong việc định
                   hướng dư luận và tạo đồng thuận xã hội. Chính phủ Singapore
@@ -455,7 +455,7 @@ const BlogDetail = () => {
                   thành công cụ hỗ trợ đắc lực cho việc quản lý quốc gia và thúc
                   đẩy sự phát triển bền vững.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Hệ thống truyền thông tại Singapore được chi phối bởi hai tập
                   đoàn lớn là Mediacorp và SPH Media Trust (SMT). SMT sở hữu một
                   loạt các tờ báo xuất bản bằng bốn ngôn ngữ chính, bao gồm
@@ -481,7 +481,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2 h-[300px]"
                   />
                 </div>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Sự kiểm soát này được thực hiện thông qua khung pháp lý rõ
                   ràng, đặc biệt là Luật Báo In và Các Ấn Phẩm In (NPPA) cùng
                   Luật Phát Thanh Truyền Hình (BA). Theo NPPA, mọi tờ báo muốn
@@ -493,7 +493,7 @@ const BlogDetail = () => {
                   ngăn chặn các ảnh hưởng từ bên ngoài có thể gây bất ổn cho
                   quốc gia.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Trong thời đại kỹ thuật số, Singapore tiếp tục đẩy mạnh quản
                   lý thông tin trực tuyến bằng việc ban hành Luật Bảo Vệ Khỏi Sự
                   Thao Túng và Lừa Dối Trực Tuyến (POFMA). Đạo luật này nhằm đối
@@ -506,7 +506,7 @@ const BlogDetail = () => {
                   thông tin mà còn định hình nhận thức của người dân, tạo ra
                   hình ảnh một Singapore an toàn, ổn định và thịnh vượng.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Sự kiểm soát không chỉ giới hạn ở truyền thông trong nước.
                   Chính phủ Singapore còn đặt ra quy định nghiêm ngặt đối với
                   các tổ chức truyền thông quốc tế hoạt động tại đây, yêu cầu họ
@@ -515,7 +515,7 @@ const BlogDetail = () => {
                   hợp với lợi ích quốc gia và không làm tổn hại đến sự ổn định
                   chính trị.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Nhờ chiến lược quản lý truyền thông hiệu quả, chính phủ
                   Singapore đã thành công trong việc duy trì niềm tin và sự đồng
                   thuận xã hội. Một khảo sát của Viện Gallup vào năm 2010 cho
@@ -525,7 +525,7 @@ const BlogDetail = () => {
                   rõ ràng trong việc củng cố hình ảnh quốc gia và tạo niềm tin
                   vào các chính sách.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Singapore đã cho thấy cách truyền thông có thể trở thành công
                   cụ hiệu quả trong việc thúc đẩy phát triển xã hội, định hình
                   tư tưởng công chúng và đảm bảo sự ổn định chính trị. Mô hình
@@ -549,18 +549,18 @@ const BlogDetail = () => {
               className="w-full h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96">
+              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96 uppercase">
                 {blog3Content.title}
               </h1>
             </div>
           </div>
 
           {/* Main Content Section */}
-          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-2/3">
+          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-full">
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mt-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
                   Tổng quan
                 </p>
                 {/* Content Image with Caption */}
@@ -570,7 +570,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-2/3 object-cover"
                   />
                 </div>
-                <p className="mt-2 leading-8 text-sm text-gray-700">
+                <p className="mt-4 leading-8 text-sm text-gray-700 text-justify">
                   Tính đến ngày 22/10/2024, dân số Singapore đạt 6.064.162 người
                   theo số liệu mới nhất từ Liên Hợp Quốc. Mặc dù chỉ là một quốc
                   đảo nhỏ với mật độ dân số rất cao, Singapore lại nổi tiếng với
@@ -585,14 +585,14 @@ const BlogDetail = () => {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-10 mt-10">
+            <div className="grid grid-cols-1 gap-10 mt-5">
               {/* Content */}
               <div>
                 {/* Content Image with Caption */}
                 <div className="flex flex-col gap-5 items-center">
                   <img src={mechanic} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Không những thế, lực lượng lao động của Singapore cũng phản
                   ánh một quốc gia trẻ trung và năng động với độ tuổi trung bình
                   là 35,7 tuổi. Đội ngũ lao động trẻ, đầy năng lượng và được đào
@@ -603,7 +603,7 @@ const BlogDetail = () => {
                   lực, giúp quốc gia này duy trì khả năng cạnh tranh mạnh mẽ
                   trên thị trường quốc tế.
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Sự kết hợp giữa tuổi thọ cao và dân số trẻ đã tạo nên một cấu
                   trúc dân số lý tưởng tại Singapore, nơi mà kinh nghiệm phong
                   phú của thế hệ đi trước được truyền lại cho thế hệ trẻ đầy
@@ -613,7 +613,7 @@ const BlogDetail = () => {
                   tế, mang đến sự đa dạng hóa về dân số và văn hóa, từ đó tạo ra
                   một xã hội đa dạng, sáng tạo và cởi mở.
                 </p>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-2">
                   Một điểm đặc biệt ở Singapore là tiếng Anh được sử dụng như
                   ngôn ngữ chính thức và là phương tiện giảng dạy trong tất cả
                   các trường học, giúp quốc gia này kết nối mạnh mẽ với nền kinh
@@ -625,10 +625,10 @@ const BlogDetail = () => {
                   các yếu tố từ nhiều ngôn ngữ và phương ngữ, phản ánh sự giao
                   thoa văn hóa độc đáo của đất nước này.
                 </p>
-                <div className="flex flex-col gap-5 items-center mt-2">
+                <div className="flex flex-col gap-5 items-center mt-4">
                   <img src={children} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Singapore là một quốc gia đa sắc tộc với tỷ lệ dân số gồm:
                   người gốc Hoa chiếm 76%, người Mã Lai chiếm 15%, người Ấn Độ
                   chiếm 7%, và các nhóm dân tộc khác, bao gồm người Âu – Á,
@@ -647,7 +647,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2"
                   />
                 </div>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Dù Singapore nổi tiếng với sự thịnh vượng và chất lượng cuộc
                   sống cao, đất nước này cũng đối mặt với những vấn đề như sự
                   chênh lệch giàu nghèo ngày càng gia tăng. Một số ít người sở
@@ -657,7 +657,7 @@ const BlogDetail = () => {
                   hàng năm đối với lao động toàn thời gian đạt 3,5% từ năm 2012
                   đến năm 2022, cao hơn mức trung bình 2,6% trong thập kỷ trước.
                 </p>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-2">
                   Một thách thức lớn khác tại Singapore là giá nhà ở, hiện nằm
                   trong nhóm đắt đỏ nhất thế giới. Điều này đã khiến nhiều người
                   trẻ gặp khó khăn trong việc sở hữu nhà, biến giấc mơ an cư trở
@@ -684,7 +684,7 @@ const BlogDetail = () => {
                     className="rounded-lg shadow-md w-1/2 h-[300px]"
                   />
                 </div>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Với một quốc gia đông dân và đa dạng chủng tộc như Singapore,
                   truyền thông đóng vai trò quan trọng trong việc phản ánh các
                   vấn đề xã hội, là kênh cung cấp thông tin và là cầu nối giữa
@@ -700,7 +700,7 @@ const BlogDetail = () => {
                   chúng, từ đó điều chỉnh và cải thiện chính sách một cách hiệu
                   quả hơn.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Truyền thông còn có vai trò định hình và phản ánh dư luận xã
                   hội. Cách truyền thông đưa tin về những vấn đề như bất bình
                   đẳng thu nhập, giá nhà cao, hay chính sách nhập cư có tác động
@@ -710,7 +710,7 @@ const BlogDetail = () => {
                   tham gia vào các phong trào xã hội, tạo ra một cộng đồng gắn
                   kết, tích cực và có trách nhiệm hơn.
                 </p>
-                <p className="my-2 leading-8 text-sm text-gray-700">
+                <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
                   Tầm ảnh hưởng của truyền thông đòi hỏi sự cân nhắc kỹ lưỡng
                   trong việc lựa chọn câu chuyện, góc nhìn và cách trình bày
                   thông tin. Tính khách quan, trung thực và đa chiều là yếu tố
@@ -736,28 +736,28 @@ const BlogDetail = () => {
               className="w-full h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96">
+              <h1 className="text-[#F8E1D2] text-[70px] font-extrabold tracking-widest mt-96 uppercase">
                 {blog4Content.title}
               </h1>
             </div>
           </div>
 
           {/* Main Content Section */}
-          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-2/3">
+          <div className="container mx-auto px-10 md:px-32 grid grid-cols-1 w-full">
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mt-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
                   Singapore: Bức Tranh Văn Hóa Đa Dạng và Độc Đáo
                 </p>
-                <p className="mt-2 leading-8 text-sm text-gray-700">
+                <p className="mt-2 leading-8 text-sm text-gray-700 text-justify">
                   Singapore, quốc đảo sư tử, không chỉ nổi tiếng là một trung
                   tâm kinh tế toàn cầu mà còn là nơi giao thoa của nhiều nền văn
                   hóa phong phú. Lịch sử hình thành, vị thế địa lý và sự đa dạng
                   dân tộc đã tạo nên một nền văn hóa độc đáo, thu hút sự chú ý
                   của du khách từ khắp nơi trên thế giới.
                 </p>
-                <p className="mt-2 leading-8 text-sm text-gray-700">
+                <p className="mt-2 leading-8 text-sm text-gray-700 text-justify mb-4">
                   Ẩm thực Singapore là minh chứng sống động cho sự giao thoa văn
                   hóa Á-Âu, nơi các hương vị truyền thống và hiện đại hòa quyện
                   với nhau một cách tinh tế. Từ những món ăn đường phố bình dị
@@ -767,7 +767,7 @@ const BlogDetail = () => {
                 <div className="flex flex-col gap-5 items-center">
                   <img src={maxWell} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Các món ăn nổi tiếng như mì xào của người Hoa, cà ri đậm đà
                   của người Ấn Độ, hay satay thơm lừng của người Mã Lai đều mang
                   đến trải nghiệm vị giác khó quên. Những khu chợ ẩm thực như
@@ -778,7 +778,7 @@ const BlogDetail = () => {
                 <div className="flex flex-col gap-5 items-center mt-2">
                   <img src={leHoi} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Các lễ hội truyền thống tại Singapore phản ánh sâu sắc bản sắc
                   văn hóa của từng cộng đồng dân tộc. Tết Nguyên Đán của người
                   Hoa, Hari Raya Aidilfitri của người Mã Lai, và Deepavali của
@@ -791,7 +791,7 @@ const BlogDetail = () => {
                 <div className="flex flex-col gap-5 items-center">
                   <img src={hotel} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Một trong những nét đặc sắc nhất của Singapore chính là sự đa
                   dạng trong kiến trúc, phản ánh lịch sử và văn hóa độc đáo của
                   quốc đảo này. Tại đây, bạn có thể chiêm ngưỡng những ngôi chùa
@@ -802,7 +802,7 @@ const BlogDetail = () => {
                   mạo đô thị độc đáo, là biểu tượng cho sự phát triển không
                   ngừng của Singapore.
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify mb-4">
                   Người Singapore rất coi trọng các giá trị truyền thống, đặc
                   biệt là gia đình. Gia đình không chỉ là nền tảng xã hội mà còn
                   là nơi mỗi cá nhân tìm thấy sự gắn bó, sẻ chia và hỗ trợ lẫn
@@ -813,7 +813,7 @@ const BlogDetail = () => {
                 <div className="flex flex-col gap-5 items-center">
                   <img src={education} className="rounded-lg shadow-md w-1/2" />
                 </div>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-4">
                   Giáo dục là một ưu tiên hàng đầu của cả phụ huynh lẫn chính
                   phủ Singapore. Cha mẹ không ngần ngại đầu tư vào việc học tập
                   của con cái, trong khi chính phủ đã tăng mạnh chi tiêu cho
@@ -822,14 +822,14 @@ const BlogDetail = () => {
                   công dân ưu tú mà còn là động lực thúc đẩy sự phát triển kinh
                   tế của quốc gia.
                 </p>
-                <p className="leading-8 text-sm text-gray-700 my-2">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Người Singapore còn nổi tiếng với tinh thần làm việc chăm chỉ,
                   kỷ luật cao và sự cống hiến hết mình để đạt được hiệu quả tốt
                   nhất. Những đức tính này không chỉ giúp xây dựng một xã hội
                   năng động mà còn góp phần đưa Singapore trở thành một trong
                   những nền kinh tế hàng đầu thế giới.
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Singapore là nơi hội tụ của nhiều tôn giáo khác nhau, từ Phật
                   giáo, Hồi giáo, Ấn Độ giáo đến Cơ đốc giáo và cả các tín
                   ngưỡng bản địa. Điều đặc biệt là tất cả các tín ngưỡng này
@@ -854,20 +854,24 @@ const BlogDetail = () => {
                   Ảnh hưởng của văn hóa tới truyền thông và tiếp nhận thông tin
                   trong xã hội
                 </p>
-                <div className="flex gap-5 items-center mb-5">
-                  <img src={media} className="rounded-lg shadow-md w-1/2 h-[300px]" />
+                <div className="flex gap-5 items-center mb-5 justify-center">
+                  <img src={media} className="rounded-lg shadow-md h-[300px] w-[330px] object-cover" />
+                  <img
+                    src={socialMediaIcon}
+                    className="rounded-lg shadow-md h-[300px] w-[330px] object-cover"
+                  />
                   <img
                     src={mediaOutdoor}
-                    className="rounded-lg shadow-md w-1/2 h-[300px]"
+                    className="rounded-lg shadow-md h-[300px] w-[330px] object-cover"
                   />
                 </div>
-                <div className="flex flex-col gap-5 items-center">
+                {/* <div className="flex flex-col gap-5 items-center">
                   <img
                     src={socialMediaIcon}
                     className="rounded-lg shadow-md w-1/2"
                   />
-                </div>
-                <p className="leading-8 text-sm text-gray-700 mt-2">
+                </div> */}
+                <p className="leading-8 text-sm text-gray-700 text-justify mt-2">
                   Với sự đa dạng văn hóa độc đáo, Singapore đã tạo nên một môi
                   trường truyền thông phong phú, nơi văn hóa không chỉ định hình
                   cách sản xuất thông tin mà còn ảnh hưởng sâu sắc đến cách
@@ -876,7 +880,7 @@ const BlogDetail = () => {
                 <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
                   Đa Dạng Văn Hóa, Đa Dạng Phương Tiện Truyền Thông
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Từ tin tức, chương trình giáo dục đến giải trí, nội dung
                   truyền thông tại Singapore luôn phản ánh sự phong phú về sở
                   thích và nhu cầu. Hệ thống truyền thông đa ngôn ngữ không chỉ
@@ -886,7 +890,7 @@ const BlogDetail = () => {
                 <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
                   Giá Trị Truyền Thống Ảnh Hưởng Đến Cách Tiếp Nhận Thông Tin
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Gia đình đóng vai trò trung tâm trong văn hóa Singapore, không
                   chỉ là nền tảng gắn kết mà còn ảnh hưởng đến cách người dân
                   tiếp nhận thông tin. Việc chia sẻ thông tin qua truyền miệng,
@@ -901,7 +905,7 @@ const BlogDetail = () => {
                 <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
                   Văn Hóa Giao Tiếp và Tương Tác Với Thông Tin
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Người Singapore nổi tiếng với phong cách giao tiếp lịch sự,
                   tôn trọng ý kiến người khác, ngay cả trong các cuộc thảo luận
                   trực tuyến. Họ thường tránh tranh cãi gay gắt trên mạng xã
@@ -915,7 +919,7 @@ const BlogDetail = () => {
                 <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
                   Văn Hóa Ảnh Hưởng Đến Sản Xuất Nội Dung Truyền Thông
                 </p>
-                <p className="leading-8 text-sm text-gray-700">
+                <p className="leading-8 text-sm text-gray-700 text-justify">
                   Sự đa dạng văn hóa không chỉ tác động đến cách tiếp nhận thông
                   tin mà còn định hình cách sản xuất nội dung truyền thông. Các
                   nhà sản xuất nội dung tại Singapore thường địa phương hóa sản
