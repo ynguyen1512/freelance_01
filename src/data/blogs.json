@@ -1,0 +1,52 @@
+[
+    {
+      "key": "1",
+      "label": "Tất cả",
+      "content": {
+        "title": "Kiến trúc vi khí hậu là gì?",
+        "description": "Kiến thức Kiến trúc",
+        "date": "01/11/2024",
+        "image": "newsImg"
+      }
+    },
+    {
+      "key": "2",
+      "label": "Kiến thức Kiến trúc",
+      "content": {
+        "title": "Kiến trúc vi khí hậu là gì?",
+        "description": "Kiến thức Kiến trúc",
+        "date": "01/11/2024",
+        "image": "newsImg"
+      }
+    },
+    {
+      "key": "3",
+      "label": "Kinh nghiệm thiết kế",
+      "content": {
+        "title": "Kiến trúc vi khí hậu là gì?",
+        "description": "Kiến thức Kiến trúc",
+        "date": "01/11/2024",
+        "image": "newsImg"
+      }
+    },
+    {
+      "key": "4",
+      "label": "Tin báo chí",
+      "content": {
+        "title": "Kiến trúc vi khí hậu là gì?",
+        "description": "Kiến thức Kiến trúc",
+        "date": "01/11/2024",
+        "image": "newsImg"
+      }
+    },
+    {
+      "key": "5",
+      "label": "Tin sự kiện",
+      "content": {
+        "title": "Kiến trúc vi khí hậu là gì?",
+        "description": "Kiến thức Kiến trúc",
+        "date": "01/11/2024",
+        "image": "newsImg"
+      }
+    }
+  ]
