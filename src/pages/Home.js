@@ -11,7 +11,7 @@ import sing6 from "../assets/images/old-man.webp";
 import sing7 from "../assets/images/sing-7.webp";
 import sing8 from "../assets/images/sing-8.webp";
 import sing9 from "../assets/images/sing-10.png";
-import newsHeader from "../assets/images/news-header.png";
+import newsHeader from "../assets/images/landscape.avif";
 import blog1Chuong4 from '../assets/images/chuong4-blog1.webp'
 import callToAction from '../assets/images/action.png'
 
