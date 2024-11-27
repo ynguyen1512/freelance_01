@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Use HashRouter
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Layout } from "antd";
 import Home from "./pages/Home";
 import BlogDetail from "./pages/BlogDetail"; 
@@ -15,8 +15,9 @@ const App = () => {
   return (
     <Router>
       <Layout className="min-h-screen bg-gray-100">
-        <HeaderPage />
+        <HeaderPage/>
         <Routes>
+          {/* Define the Routes */}
           <Route path="/" element={<Home />} />
           <Route path="/blog/section-1/:id" element={<BlogDetail />} />
           <Route path="/blog/section-2/:id" element={<BlogDetailSection2 />} />
