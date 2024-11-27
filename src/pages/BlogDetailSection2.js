@@ -152,7 +152,7 @@ const BlogDetailSection2 = () => {
             Quản Lý Truyền Thông Singapore: Pháp Luật và Đạo Đức Cần Biết
           </h2>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Pháp luật trong truyền thông
           </p>
           <div className="flex justify-center mt-20">
@@ -169,21 +169,21 @@ const BlogDetailSection2 = () => {
             làm ba giai đoạn rõ rệt, phản ánh những bước đi chiến lược của chính
             phủ trong việc kiểm soát và định hướng thông tin.
           </p>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-4">
+          <p className="px-20 font-normal text-[20px] text-primary-700 mt-4">
             Giai đoạn một: Những ngày đầu sau khi độc lập (1965):
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8  mt-2">
             Singapore kiểm soát chặt chẽ báo chí qua các luật nghiêm ngặt như
             Đạo luật An ninh Nội bộ (Kuo&Chen, 1983).
           </p>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Giai đoạn hai: Tăng cường quản lý (từ giữa thế kỷ 20):
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-2">
             Singapore áp dụng các luật bổ sung như Luật báo in và các ấn phẩm
             (NPPA), Luật phát thanh truyền hình (BA) để quản lý báo chí.
           </p>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Giai đoạn ba: Kỷ nguyên kỹ thuật số (từ 2000):
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-2">
@@ -206,7 +206,7 @@ const BlogDetailSection2 = () => {
             tin.
           </p>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Quy chuẩn đạo đức trong truyền thông
           </p>
           <div className="pl-10 pr-5 py-5 bg-primary-100 w-fit mx-auto mt-5 rounded-xl">
@@ -267,7 +267,7 @@ const BlogDetailSection2 = () => {
             Mô hình truyền thông
           </h2>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Bốn học thuyết cơ bản trong truyền thông
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-4">
@@ -288,7 +288,7 @@ const BlogDetailSection2 = () => {
               <img src={theory2} className="w-[400px] h-[500px] object-cover" />
             </div>
           </div>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-20">
+          <p className="px-20 font-normal text-[20px] text-primary-700 mt-20">
             Những học thuyết truyền thông và sự tương đồng trong mô hình của
             Singapore
           </p>
@@ -347,10 +347,10 @@ const BlogDetailSection2 = () => {
             của các giá trị xã hội.
           </p>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Mô hình truyền thông của Singapore hiện nay
           </p>
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Các yếu tố truyền thông mới
           </p>
           <div className="flex justify-center mt-20">
@@ -397,7 +397,7 @@ const BlogDetailSection2 = () => {
             hiện đại.
           </p>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Mô hình truyền thông hiện đại của Singapore
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-2">
@@ -455,7 +455,7 @@ const BlogDetailSection2 = () => {
             Ảnh hưởng của truyền thông quốc tế đến chính trị và xã hội
           </h2>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700">
+          <p className="px-20 font-normal text-[20px] text-primary-700">
             Ảnh hưởng về mặt chính trị
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-4">
@@ -482,7 +482,7 @@ const BlogDetailSection2 = () => {
             </div>
           </div>
           <img src={divider} className="px-20 py-5 mt-10" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-5">
+          <p className="px-20 font-normal text-[20px] text-primary-700 mt-5">
             Singapore: Người “giữ nhịp” giữa Mỹ và Trung Quốc
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8  mt-2">
@@ -509,7 +509,7 @@ const BlogDetailSection2 = () => {
             của mình!
           </p>
           <img src={divider} className="px-20 py-5" />
-          <p className="px-20 font-serif font-normal text-[20px] text-primary-700 mt-14">
+          <p className="px-20 font-normal text-[20px] text-primary-700 mt-14">
             Ảnh hưởng về mặt đời sống, xã hội
           </p>
           <p className="text-justify mx-auto px-20 text-gray-700 text-[15px] leading-8 mt-2">

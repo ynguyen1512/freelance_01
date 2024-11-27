@@ -105,7 +105,7 @@ const BlogDetailSection3 = () => {
         <div className="bg-gray-100 min-h-screen mt-20">
           <div className="relative">
             <img src={sing11} className="w-full h-[780px] object-cover" />
-            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-serif font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
+            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
               Truyền thông trong việc định hình chính sách đối ngoại
             </p>
           </div>
@@ -117,7 +117,7 @@ const BlogDetailSection3 = () => {
                 <div className="col-span-2">
                   {/* <div className="mt-10 relative mb-16"> */}
                    
-                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] -bottom-10 text-white">
+                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-normal text-[25px] -bottom-10 text-white">
                       Cách đưa tin của các hãng truyền thông quốc gia
                     </p>
                   {/* </div> */}
@@ -215,7 +215,7 @@ const BlogDetailSection3 = () => {
                   alt="Fashion"
                   className="rounded-md object-cover h-[400px] w-full"
                 /> */}
-                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] -bottom-10 text-white">
+                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-normal text-[25px] -bottom-10 text-white">
                   Vai trò của truyền thông trong định hình chính sách đối ngoại
                 </p>
               {/* </div> */}
@@ -238,7 +238,7 @@ const BlogDetailSection3 = () => {
               </div>
               <div className="grid grid-cols-1 mb-10">
                 <div>
-                <p className="leading-18 text-primary-700 font-serif font-bold text-[15px] w-full -mt-10 mb-4">
+                <p className="leading-18 text-primary-700 font-bold text-[15px] w-full -mt-10 mb-4">
                   Vai Trò của Truyền Thông trong Việc Xây Dựng Vị Thế Quốc Gia
                   tại Singapore
                 </p>
@@ -294,7 +294,7 @@ const BlogDetailSection3 = () => {
               src={singPolitical}
               className="w-full h-[780px] object-cover"
             />
-            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-serif font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
+            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
               Truyền thông quốc tế trong việc tạo lập và định hướng dư luận xã
               hội
             </p>
@@ -324,7 +324,7 @@ const BlogDetailSection3 = () => {
                   alt="Fashion"
                   className="rounded-md object-cover h-[400px] w-full"
                 />
-                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-normal text-[25px] absolute -bottom-10 text-white">
                   Khủng hoảng: Vai trò của Truyền thông trong Đại dịch COVID-19
                 </p>
               </div>
@@ -358,7 +358,7 @@ const BlogDetailSection3 = () => {
                       alt="Fashion"
                       className="rounded-md object-cover h-[400px] w-full"
                     />
-                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-normal text-[25px] absolute -bottom-10 text-white">
                       Ngoại giao Văn hóa: Biến Đổi từ “Sa Mạc Văn Hóa” thành
                       Biểu Tượng Toàn Cầu
                     </p>
@@ -403,7 +403,7 @@ const BlogDetailSection3 = () => {
         <div className="bg-gray-100 min-h-screen p-8 mt-20">
           <div className="relative">
             <img src={sing11} className="w-full h-[780px] object-cover" />
-            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-serif font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
+            <p className="leading-18 mt-8 mb-4 text-primary-700 bg-white font-normal text-[40px] absolute top-0 w-2/3 pl-8 py-4 uppercase">
               Thách thức và cơ hội trong truyền thông quốc tế
             </p>
           </div>
@@ -418,7 +418,7 @@ const BlogDetailSection3 = () => {
                       alt="Fashion"
                       className="rounded-md object-cover h-[400px] w-full"
                     />
-                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-serif font-normal text-[25px] absolute -bottom-10 text-white">
+                    <p className="leading-18 mt-5 -ml-8 bg-primary-700 p-6 font-normal text-[25px] absolute -bottom-10 text-white">
                       Thách thức trong truyền thông quốc tế
                     </p>
                   </div>
@@ -487,7 +487,7 @@ const BlogDetailSection3 = () => {
                       alt="Fashion"
                       className="rounded-md object-cover h-[400px] w-full"
                     />
-                    <p className="leading-18 mt-5 bg-primary-700 p-6 w-full font-serif font-normal text-[25px] absolute -top-12 text-white text-center">
+                    <p className="leading-18 mt-5 bg-primary-700 p-6 w-full font-normal text-[25px] absolute -top-12 text-white text-center">
                     Cơ hội trong truyền thông quốc tế
                     </p>
                   </div>

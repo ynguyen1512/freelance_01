@@ -198,10 +198,10 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 -mt-5">
               {/* Content */}
               <div>
-                <p className="leading-8 my-6 text-primary-700 font-serif font-bold text-[18px] uppercase">
+                <p className="leading-8 my-6 text-primary-700 font-bold text-[18px] uppercase">
                   {blog.title2}
                 </p>
-                <p className="leading-8 -mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
+                <p className="leading-8 -mt-5 my-0 text-primary-700 font-normal text-[16px]">
                   Logistics: Mạch máu của nền kinh tế Singapore
                 </p>
                 <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
@@ -231,7 +231,7 @@ const BlogDetail = () => {
                   trung tâm thương mại toàn cầu, duy trì sự phát triển bền vững
                   cho nền kinh tế quốc gia.
                 </p>
-                <p className="leading-8 mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
+                <p className="leading-8 mt-5 my-0 text-primary-700 font-normal text-[16px]">
                   Tài chính: Trụ cột của thịnh vượng
                 </p>
                 <p className="my-2 leading-8 text-sm text-gray-700 text-justify">
@@ -259,7 +259,7 @@ const BlogDetail = () => {
                   trong lĩnh vực tài chính.
                 </p>
                 {/* --- */}
-                <p className="leading-8 mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
+                <p className="leading-8 mt-5 my-0 text-primary-700 font-normal text-[16px]">
                   Kinh tế số: Bệ phóng của tương lai
                 </p>
                 <div className="flex flex-col gap-5 items-center mt-5">
@@ -286,7 +286,7 @@ const BlogDetail = () => {
                   vững chắc để thu hút nhân tài và vốn đầu tư toàn cầu.
                 </p>
                 {/* ---- */}
-                <p className="leading-8 mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
+                <p className="leading-8 mt-5 my-0 text-primary-700 font-normal text-[16px]">
                   Du lịch: Giao thoa giữa văn hóa và hiện đại
                 </p>
 
@@ -382,7 +382,7 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 -mt-5">
               {/* Content */}
               <div>
-                <p className="leading-8 mt-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-8 mb-4 text-primary-700 font-bold text-[18px]">
                   Hệ Thống Chính Trị Singapore: Kết Hợp Dân Chủ và Kiểm Soát
                   Chặt Chẽ
                 </p>
@@ -443,7 +443,7 @@ const BlogDetail = () => {
                   PAP, vẫn tạo ra sự đa dạng trong chính trường và mang đến các
                   góc nhìn khác biệt về phát triển kinh tế, văn hóa và xã hội.
                 </p>
-                <p className="leading-8 mt-5 my-0 text-primary-700 font-serif font-normal text-[16px]">
+                <p className="leading-8 mt-5 my-0 text-primary-700 font-normal text-[16px]">
                   Truyền Thông Ở Singapore: Công Cụ Định Hình Chính Sách Và Tư
                   Tưởng Công Chúng
                 </p>
@@ -560,7 +560,7 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mb-4 text-primary-700 font-bold text-[18px]">
                   Tổng quan
                 </p>
                 {/* Content Image with Caption */}
@@ -671,7 +671,7 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 -mt-5">
               {/* Content */}
               <div>
-                <p className="leading-8 mt-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-8 mb-4 text-primary-700 font-bold text-[18px]">
                   Vai trò của truyền thông trong việc phản ánh các vấn đề xã hội
                 </p>
                 <div className="flex gap-5 items-center mt-2">
@@ -747,7 +747,7 @@ const BlogDetail = () => {
             <div className="grid grid-cols-1 gap-10 mt-10">
               {/* Content */}
               <div>
-                <p className="leading-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mb-4 text-primary-700 font-bold text-[18px]">
                   Singapore: Bức Tranh Văn Hóa Đa Dạng và Độc Đáo
                 </p>
                 <p className="mt-2 leading-8 text-sm text-gray-700 text-justify">
@@ -850,7 +850,7 @@ const BlogDetail = () => {
                     (Nguồn: Asean population)
                   </p>
                 </div>
-                <p className="leading-8 mt-8 mb-4 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-8 mb-4 text-primary-700 font-bold text-[18px]">
                   Ảnh hưởng của văn hóa tới truyền thông và tiếp nhận thông tin
                   trong xã hội
                 </p>
@@ -877,7 +877,7 @@ const BlogDetail = () => {
                   cách sản xuất thông tin mà còn ảnh hưởng sâu sắc đến cách
                   người dân tiếp nhận và tương tác với thông tin.
                 </p>
-                <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-2 mb-2 text-primary-700 font-bold text-[18px]">
                   Đa Dạng Văn Hóa, Đa Dạng Phương Tiện Truyền Thông
                 </p>
                 <p className="leading-8 text-sm text-gray-700 text-justify">
@@ -887,7 +887,7 @@ const BlogDetail = () => {
                   là phương tiện cung cấp thông tin mà còn là cầu nối văn hóa
                   giữa các cộng đồng dân tộc.
                 </p>
-                <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-2 mb-2 text-primary-700 font-bold text-[18px]">
                   Giá Trị Truyền Thống Ảnh Hưởng Đến Cách Tiếp Nhận Thông Tin
                 </p>
                 <p className="leading-8 text-sm text-gray-700 text-justify">
@@ -902,7 +902,7 @@ const BlogDetail = () => {
                   không chỉ mở rộng hiểu biết mà còn rèn luyện khả năng tư duy
                   phản biện và đánh giá thông tin chính xác.
                 </p>
-                <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-2 mb-2 text-primary-700 font-bold text-[18px]">
                   Văn Hóa Giao Tiếp và Tương Tác Với Thông Tin
                 </p>
                 <p className="leading-8 text-sm text-gray-700 text-justify">
@@ -916,7 +916,7 @@ const BlogDetail = () => {
                   hình truyền thông đa ngôn ngữ. Điều này làm cho không gian
                   truyền thông tại Singapore thêm phần phong phú và đa chiều.
                 </p>
-                <p className="leading-8 mt-2 mb-2 text-primary-700 font-serif font-bold text-[18px]">
+                <p className="leading-8 mt-2 mb-2 text-primary-700 font-bold text-[18px]">
                   Văn Hóa Ảnh Hưởng Đến Sản Xuất Nội Dung Truyền Thông
                 </p>
                 <p className="leading-8 text-sm text-gray-700 text-justify">

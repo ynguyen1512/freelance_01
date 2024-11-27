@@ -34,7 +34,7 @@ const BLogDetailSection4 = () => {
           </div>
           <div className="flex justify-between gap-4 items-center">
             <div className="w-2/3">
-              <p className="leading-16 mt-8 mb-4 text-primary-700 font-serif font-bold text-[60px]">
+              <p className="leading-16 mt-8 mb-4 text-primary-700 font-bold text-[60px]">
                 Tổng Kết Hành Trình Khám Phá Hệ Thống Truyền Thông Singapore
               </p>
             </div>
@@ -64,10 +64,10 @@ const BLogDetailSection4 = () => {
                 công cụ xây dựng hình ảnh quốc gia mà còn là phương tiện định
                 hình chính sách đối ngoại và khơi nguồn dư luận xã hội.
               </p>
-              <p className="leading-18 mb-2 text-primary-700 font-serif font-bold text-[18px] w-full">
+              <p className="leading-18 mb-2 text-primary-700 font-bold text-[18px] w-full">
                 Mặt Tốt và Chưa Tốt Trong Mô Hình Truyền Thông Singapore
               </p>
-              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-full">
+              <p className="leading-18 mb-4 text-primary-700 font-bold text-[15px] w-full">
                 Những Điểm Sáng:
               </p>
               <p className="leading-8 mb-4 text-sm text-gray-700 w-full text-justify">
@@ -87,7 +87,7 @@ const BLogDetailSection4 = () => {
               </p>
             </div>
             <div>
-              <p className="leading-18 mb-4 text-primary-700 font-serif font-bold text-[15px] w-full">
+              <p className="leading-18 mb-4 text-primary-700 font-bold text-[15px] w-full">
                 Những Mặt Cần Cải Thiện:
               </p>
               <p className="leading-8 text-sm text-gray-700 w-full text-justify">
@@ -121,7 +121,7 @@ const BLogDetailSection4 = () => {
               />
             </div>
             <div>
-              <p className="leading-18 text-primary-700 font-serif font-bold text-[15px] w-[350px]">
+              <p className="leading-18 text-primary-700 font-bold text-[15px] w-[350px]">
                 Singapore có thể làm gì để trở thành một phiên bản tốt hơn?
               </p>
               <p className="leading-8 text-sm text-gray-700 w-full text-justify my-2">
@@ -207,7 +207,7 @@ const BLogDetailSection4 = () => {
               tin giả và các biện pháp xử lý, nhằm góp phần làm trong sạch không
               gian mạng và bảo vệ người dùng.
             </p>
-            <p className="leading-18 mb-4 font-serif font-bold text-[15px] w-[450px]">
+            <p className="leading-18 mb-4 font-bold text-[15px] w-[450px]">
               Hướng Đi Tiếp Theo Cho Những Ai Quan Tâm Đến Chủ Đề Này!
             </p>
             <p className="leading-8 mb-5 text-sm w-[450px] text-justify">
