@@ -87,12 +87,12 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://www.dav.edu.vn/ban-giam-docAll/" className="hover:text-green-300">
-              Ban Giám dốc
+              Ban Giám đốc
               </a>
             </li>
             <li>
               <a href="https://www.dav.edu.vn/hoi-dong-khoa-hoc-va-dao-tao/" className="hover:text-green-300">
-              Hội đồng khoa học và Đào tào
+              Hội đồng Khoa học và Đào tào
               </a>
             </li>
             <li>
@@ -107,7 +107,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://www.dav.edu.vn/doan-thanh-nien/" className="hover:text-green-300">
-              Đoàn thanh niên
+              Đoàn Thanh niên
               </a>
             </li>
           </ul>
@@ -180,17 +180,17 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <a href="https://www.dav.edu.vn/hop-tac-quoc-te-ve-dao-tao/" className="hover:text-green-300">
-              Hợp tác quốc tế về Đào tạo
+              Hợp tác Quốc tế về Đào tạo
               </a>
             </li>
             <li>
               <a href="https://www.dav.edu.vn/hop-tac-quoc-te-boi-duong/" className="hover:text-green-300">
-              Hợp tác quốc tế Bồi dưỡng
+              Hợp tác Quốc tế Bồi dưỡng
               </a>
             </li>
             <li>
               <a href="https://www.dav.edu.vn/hop-tac-quoc-te-nghien-cuu/" className="hover:text-green-300">
-              Hợp tác quốc tế nghiên cứu
+              Hợp tác Quốc tế nghiên cứu
               </a>
             </li>
             <li>
